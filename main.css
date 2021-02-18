@@ -1,373 +1,59 @@
 @media only screen and (max-width: 700px) {
 
-* {
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-body {
-    max-width: 380px;
-    text-align: center;
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* .section-1 {
-    /* display: flex;
-    flex-direction: column; 
-   
-}
-*/
-
-.content-1-box {
-    background-color: #ff3eb5;
-    display: flex;
-    flex-direction: column;
-    
-}
-
-
-.content-1-text {
-    
-    box-sizing: border-box;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    text-align: start;
-
-}
-
-.content-1-text h1 {
-    font-size: 22px;
-    text-align: start;
-}
-
-.content-1-text p {
-    font-size: 15px;
-    margin-top: 20px;
-    text-align: start;
-}
-
-.content-1-text button {
-    margin-top: 20px;
-    border: solid #472583;
-    border-radius: 3px;
-    width: 110px;
-    background-color: #472583;
-    color: whitesmoke;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 3px;
-    padding-left: 3px;
-    font-weight: bold;
-    font-size: 12px;
-    
-}
-
-#content-1-img {
-    background: url(./lg-hollywood.jpg);
-    background-repeat: no-repeat;
-    background-size: 180%;
-    background-position: -150px 0px;
-    height: 500px;
-    clip-path: polygon(0 0%, 100% 11%, 100% 100%, 0 100%);
-    position: relative;
-    
-}
-
-#hollywood-logo {
-    position: absolute;
-    
-    width: 10px;
-    height: 46px;
-    bottom: 10px;
-    left: 20px;
-}
-
-#hollywood-logo img {
-    
-    width: 100px;
-    height: 46px;
-    bottom: 10px;
-    left: 20px;
-}
-
-
-
-
-/* section2-------------------------------------------------------------------------------- */
-
-.section-2 {
-    max-width: 380px;
-    width: 100%;
-    background-color: #472583;
-    /* display: flex; */
-}
-
-.content-2-text {
-    width: 320px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 100px;
-}
-
-.content-2-text h2 {
-    font-size: 25px;
-    width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.content-2-text p {
-    font-size: 15px;
-    margin-top: 20px;
-    width: 320px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.moviebox-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-    font-size: 12px;
-    padding-bottom: 100px;
-    
-}
-
-.movie-item-brassic {
-    width: 280px;
-    height: 300px;
-    background:url(./box-1.jpg);
-    background-size: cover;
-    /* display: block; */
-    position: relative;
-    
-    
-}
-
-#brassic-logo {
-    background: url(./Brassic.png);
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: 3;
-    width: 50px;
-    height: 20px;
-    
-}
-
-.movie-item-fastfurious {
-    width: 280px;
-    height: 300px;
-    background:url(/box-2.jpg);
-    margin-top: 20px;
-    background-size: cover;
-    
-    position: relative;
-    
-}
-
-.movie-item-got {
-    width: 280px;
-    height: 300px;
-    background:url(./box-3.jpg);
-    margin-top: 20px;
-    background-size: cover;
-    
-    position: relative;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    opacity: 0;
-    transition: opacity 0.25s;
-    
-}
-
-.overlay:hover {
-    opacity: 1;
-}
-
-.text-overlay {
-    font-size: 12px;
-    width: 250px;
-    height:fit-content;
-    text-align: start;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    
-}
-
-/* section 3---------------------------------------------------------------- */
-
-.content-3-box {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
-}
-
-#content-3-img {
-    background: url(./lg-gangs.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: -150px 0px;
-    height: 400px;
-    position: relative;
-    
-    
-}
-#gof-logo {
-    position: absolute;
-    bottom: 20px;
-    right: 30px;
-    font-size: 12px;
-}
- 
-     
-#gof-logo img {
-    width: 200px;
-    height: 67px;
-}
-
-#gof-logo p {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
-    text-align: end;
-}
-
-
-.content-3-text {
-    background-color: #ff3eb5;
-    padding-top: 20px;
-    padding-bottom: 50px;
-}
-
-.content-3-text ul {
-    margin-top: 20px;
-    line-height: 50px;
-    font-weight: bold;
-}
-
-.content-3-text li {
-    list-style: none;
-    /* background-color: #472583; */
-    /* margin-top: 5px;
-    padding-left: 70px; */
-}
-
-.content-3-text button {
-    margin-top: 20px;
-    border: solid #472583;
-    border-radius: 3px;
-    width: 80px;
-    background-color: #472583;
-    color: whitesmoke;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 7px;
-    padding-left: 7px;
-    font-weight: bold;
-    font-size: 12px;
-    
-}
-
-}  /* mobile media query ends */
- 
- 
- 
-
-
-
-/* desktop media query----------------------------------------------------------------- */
-
-
-
-
-
-@media screen and (min-width: 700px) and (max-width: 1440px) {
-
     * {
         padding: 0;
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
+        
     }
     
     body {
+        max-width: 380px;
+        text-align: center;
         color: whitesmoke;
-        font-size: 12px;
-        width: 100%;
-        max-width: 1440px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
     }
     
-    .section-1 {
-        position: relative;
-        width: 100%;
-        height: 500px;
-        background: #ff3eb5;
-        
-        
+    /* .section-1 {
+        /* display: flex;
+        flex-direction: column; 
+       
     }
+    */
     
     .content-1-box {
-        position: relative;
-        box-sizing: border-box;
+        background-color: #ff3eb5;
         display: flex;
-        flex-direction: row-reverse;
-        width: calc(100% - 0px);
-        height: 500px;
-        /* float: left; */
-        /* background: #ff3eb5; */
-        /* background: #693b58;
-        background: url(imgs/lg-hollywood.jpg);
-        background-size: 60%; */
+        flex-direction: column;
         
     }
     
-        /*content-1-textbox  */
-        
+    
     .content-1-text {
-        text-align: start;
+        
         box-sizing: border-box;
-        height: 100%;
-        width: 40%;
-        background: #ff3eb5; 
-        
-    }
-
-    .content-1-text h1 {
-        margin-top: 50px;
-        width: 250px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 50px;
         text-align: start;
-        margin-left: 70px;
-        margin-right: 30px;
-        
+    
+    }
+    
+    .content-1-text h1 {
+        font-size: 22px;
+        text-align: start;
     }
     
     .content-1-text p {
-        width: 300px;
-        margin-top: 15px;
-        line-height: 15px;
-        margin-left: 70px;
-        margin-right: 30px;
-        font-size: 10px;
-        
-    
+        font-size: 15px;
+        margin-top: 20px;
+        text-align: start;
     }
-
+    
     .content-1-text button {
         margin-top: 20px;
         border: solid #472583;
@@ -380,140 +66,161 @@ body {
         padding-right: 3px;
         padding-left: 3px;
         font-weight: bold;
-        margin-left: 70px;
-        margin-right: 30px;
-        
         font-size: 12px;
+        
     }
     
     #content-1-img {
-    position: relative;
-    box-sizing: border-box;
-    width: 60%;
-    height: 100%;
-    background-color: yellow;
-    
-    background: url(./lg-hollywood.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-position: -70px 0px;  */
-    clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);  
+        background: url(imgs/lg-hollywood.jpg);
+        background-repeat: no-repeat;
+        background-size: 180%;
+        background-position: -150px 0px;
+        height: 500px;
+        clip-path: polygon(0 0%, 100% 11%, 100% 100%, 0 100%);
+        position: relative;
+        
     }
-
+    
     #hollywood-logo {
         position: absolute;
-        z-index: 2;
-        bottom: 0;
-        left: 0px;
+        
+        width: 10px;
+        height: 46px;
+        bottom: 10px;
+        left: 20px;
     }
     
     #hollywood-logo img {
-        position: absolute;
-        /* background: url(imgs/OnceUponATime.png); */
-        bottom: 0;
-        left: 0px;
-        z-index: 2;
         
+        width: 100px;
+        height: 46px;
+        bottom: 10px;
+        left: 20px;
     }
     
-    /* section-2 -------------------------------------------------------------------------------------- */
     
     
+    
+    /* section2-------------------------------------------------------------------------------- */
     
     .section-2 {
-        height: 500px;
+        max-width: 380px;
         width: 100%;
-        background: #472583;  
-        text-align: center;
+        background-color: #472583;
+        /* display: flex; */
     }
     
     .content-2-text {
-        width: 600px;
+        width: 320px;
         margin-right: auto;
         margin-left: auto;
-        padding-top: 20px;
-        text-align: center;
-        /* background-color: rgb(0, 0, 0); */
-        padding-top: 70px;
-        
+        padding-top: 100px;
+    }
+    
+    .content-2-text h2 {
+        font-size: 25px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .content-2-text p {
-        margin-top: 30px;
-        font-size: 10px;
-        width: 500px;
-        text-align: center;
-        /* background-color: teal; */
+        font-size: 15px;
+        margin-top: 20px;
+        width: 320px;
         margin-left: auto;
         margin-right: auto;
     }
-    
     
     .moviebox-container {
-        background-color: #472583;
-        width: 700px;
-        height: 250px;    
-        /* align-items: center; */
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 30px;
         display: flex;
-        justify-content: space-between;
-        align-items: stretch;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 12px;
+        padding-bottom: 100px;
+        
     }
     
-    
     .movie-item-brassic {
-        position: relative;
-        background: url(./box-1.jpg);
-        margin: 5px;
-        width: 300px;
+        width: 280px;
+        height: 300px;
+        background:url(imgs/box-1.jpg);
         background-size: cover;
+        /* display: block; */
+        position: relative;
         
-        /* margin: 10px; */
+        
+    }
+    
+    #brassic-logo {
+        background: url(imgs/Brassic.png);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 3;
+        width: 50px;
+        height: 20px;
+        
     }
     
     .movie-item-fastfurious {
-        position: relative;
-        background:url(./box-2.jpg);
-        margin: 5px;
-        width: 300px;
+        width: 280px;
+        height: 300px;
+        background:url(imgs/box-2.jpg);
+        margin-top: 20px;
         background-size: cover;
         
-        /* margin: 10px; */
+        position: relative;
+        
     }
     
     .movie-item-got {
-        position: relative;
-        background:url(./box-3.jpg);
-        margin: 5px;
-        width: 300px;
+        width: 280px;
+        height: 300px;
+        background:url(imgs/box-3.jpg);
+        margin-top: 20px;
         background-size: cover;
         
+        position: relative;
     }
-
+    
     .overlay {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-         background: rgba(0, 0, 0, 0.6);
+        background: rgba(0, 0, 0, 0.6);
         opacity: 0;
         transition: opacity 0.25s;
-        
-    }
-       
-    
-    .overlay:hover {
-        opacity: 1;
+        border-bottom: 15px solid #ff3eb5;
+        box-sizing: border-box;
         
     }
 
+
+    .overlay:hover {
+        opacity: 1;
+    }
+
+
+    .overlay-logo {
+            position: absolute;
+            bottom: 15px;
+            left: 30px;
+            z-index: 5;
+            width: 140px;
+
+    }
+
+
+    
+    
     .text-overlay {
-        font-size: 10px;
-        width: 190px;
+        font-size: 12px;
+        width: 250px;
+        height:fit-content;
         text-align: start;
         margin-left: auto;
         margin-right: auto;
@@ -521,115 +228,426 @@ body {
         
     }
     
-    /* section-3------------------------------------------------------------------------------------- */
-    
-    
-    .section-3 {
-        position: relative;
-        width: 100%;
-        height: 500px;
-        background: #ff3eb5;
-        display: flex;
-        
-    }
+    /* section 3---------------------------------------------------------------- */
     
     .content-3-box {
-        position: relative;
-        box-sizing: border-box;
         display: flex;
-        /* flex-direction: row-reverse; */
-        width: calc(100% - 0px);
-        height: 100%;
-        /* float: left; */
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    
+    #content-3-img {
+        background: url(imgs/lg-gangs.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: -150px 0px;
+        height: 400px;
+        position: relative;
+        
         
     }
+    #gof-logo {
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
+        font-size: 12px;
+    }
+     
+         
+    #gof-logo img {
+        width: 200px;
+        height: 67px;
+    }
+    
+    #gof-logo p {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+        text-align: end;
+    }
+    
     
     .content-3-text {
-        box-sizing: border-box;
-        height: 100%;
-        width: 70%;
-        background: #ff3eb5;  
-        text-align:justify;
-        /* padding: 0 100px; */
-        clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
-        padding-top: 30px;
-            
-    }
-    
-    .content-3-text h1 {
-        margin-top: 50px;
-        width: 300px;
-        text-align: start;
-        padding-left: 70px;
-        
+        background-color: #ff3eb5;
+        padding-top: 20px;
+        padding-bottom: 50px;
     }
     
     .content-3-text ul {
         margin-top: 20px;
-        line-height: 40px;
+        line-height: 50px;
         font-weight: bold;
-        font-size: 12px;    
-        
     }
     
     .content-3-text li {
         list-style: none;
         /* background-color: #472583; */
-        margin-top: 5px;
-        padding-left: 70px;
-       
+        /* margin-top: 5px;
+        padding-left: 70px; */
     }
     
     .content-3-text button {
         margin-top: 20px;
         border: solid #472583;
         border-radius: 3px;
-        width: 70px;
+        width: 80px;
         background-color: #472583;
         color: whitesmoke;
-        padding-top: 7px;
-        padding-bottom: 7px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 7px;
+        padding-left: 7px;
         font-weight: bold;
-        margin-left: 70px;
-        font-size: 10px;
-    }
-    
-    #content-3-img {
-        box-sizing: border-box;
-        width: 60%;
-        height: 500px;
-        background-color: yellow;
-        clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
-        background: url(./lg-gangs.jpg);
-        /* background-size: 100%; */
-        background-repeat: no-repeat;
-        background-size: cover;
-        /* background-position: -130px -50px; */
-        position: absolute;
-        right: 0;    
-    }
-    
-    #gof-logo {
-        color: whitesmoke;
+        font-size: 12px;
         
     }
-
-    #gof-logo img {
-        height: 53px;
-        width: 160px;
-        bottom: 30px;
-        right: 20px;
-        position: absolute;
+    
+    }  /* mobile media query ends */
+     
+     
+     
+    
+    
+    
+    /* desktop media query----------------------------------------------------------------- */
+    
+    
+    
+    
+    
+    @media screen and (min-width: 700px) and (max-width: 1440px) {
+    
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        body {
+            color: whitesmoke;
+            font-size: 12px;
+            width: 100%;
+            max-width: 1440px;
+        }
+        
+        .section-1 {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            background: #ff3eb5;
+            
+            
+        }
+        
+        .content-1-box {
+            position: relative;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row-reverse;
+            width: calc(100% - 0px);
+            height: 500px;
+            /* float: left; */
+            /* background: #ff3eb5; */
+            /* background: #693b58;
+            background: url(imgs/lg-hollywood.jpg);
+            background-size: 60%; */
+            
+        }
+        
+            /*content-1-textbox  */
+            
+        .content-1-text {
+            text-align: start;
+            box-sizing: border-box;
+            height: 100%;
+            width: 40%;
+            background: #ff3eb5; 
+            
+        }
+    
+        .content-1-text h1 {
+            margin-top: 50px;
+            width: 250px;
+            text-align: start;
+            margin-left: 70px;
+            margin-right: 30px;
+            
+        }
+        
+        .content-1-text p {
+            width: 300px;
+            margin-top: 15px;
+            line-height: 15px;
+            margin-left: 70px;
+            margin-right: 30px;
+            font-size: 10px;
+            
+        
+        }
+    
+        .content-1-text button {
+            margin-top: 20px;
+            border: solid #472583;
+            border-radius: 3px;
+            width: 110px;
+            background-color: #472583;
+            color: whitesmoke;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 3px;
+            padding-left: 3px;
+            font-weight: bold;
+            margin-left: 70px;
+            margin-right: 30px;
+            
+            font-size: 12px;
+        }
+        
+        #content-1-img {
+        position: relative;
+        box-sizing: border-box;
+        width: 60%;
+        height: 100%;
+        background-color: yellow;
+        
+        background: url(imgs/lg-hollywood.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: -70px 0px;  */
+        clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);  
+        }
+    
+        #hollywood-logo {
+            position: absolute;
+            z-index: 2;
+            bottom: 0;
+            left: 0px;
+        }
+        
+        #hollywood-logo img {
+            position: absolute;
+            /* background: url(imgs/OnceUponATime.png); */
+            bottom: 0;
+            left: 0px;
+            z-index: 2;
+            
+        }
+        
+        /* section-2 -------------------------------------------------------------------------------------- */
+        
+        
+        
+        .section-2 {
+            height: 500px;
+            width: 100%;
+            background: #472583;  
+            text-align: center;
+        }
+        
+        .content-2-text {
+            width: 600px;
+            margin-right: auto;
+            margin-left: auto;
+            padding-top: 20px;
+            text-align: center;
+            /* background-color: rgb(0, 0, 0); */
+            padding-top: 70px;
+            
+        }
+        
+        .content-2-text p {
+            margin-top: 30px;
+            font-size: 10px;
+            width: 500px;
+            text-align: center;
+            /* background-color: teal; */
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        
+        .moviebox-container {
+            background-color: #472583;
+            width: 700px;
+            height: 250px;    
+            /* align-items: center; */
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+        }
+        
+        
+        .movie-item-brassic {
+            position: relative;
+            background: url(imgs/box-1.jpg);
+            margin: 5px;
+            width: 300px;
+            background-size: cover;
+            
+            /* margin: 10px; */
+        }
+        
+        .movie-item-fastfurious {
+            position: relative;
+            background:url(imgs/box-2.jpg);
+            margin: 5px;
+            width: 300px;
+            background-size: cover;
+            
+            /* margin: 10px; */
+        }
+        
+        .movie-item-got {
+            position: relative;
+            background:url(imgs/box-3.jpg);
+            margin: 5px;
+            width: 300px;
+            background-size: cover;
+            
+        }
+    
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+             background: rgba(0, 0, 0, 0.6);
+            opacity: 0;
+            transition: opacity 0.25s;
+            border-bottom: 15px solid #ff3eb5;
+            box-sizing: border-box;
+            
+        }
+           
+        
+        .overlay:hover {
+            opacity: 1;
+            
+        }
+    
+        .text-overlay {
+            font-size: 10px;
+            width: 190px;
+            text-align: start;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 15px;
+            
+        }
+        
+        /* section-3------------------------------------------------------------------------------------- */
+        
+        
+        .section-3 {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            background: #ff3eb5;
+            display: flex;
+            
+        }
+        
+        .content-3-box {
+            position: relative;
+            box-sizing: border-box;
+            display: flex;
+            /* flex-direction: row-reverse; */
+            width: calc(100% - 0px);
+            height: 100%;
+            /* float: left; */
+            
+        }
+        
+        .content-3-text {
+            box-sizing: border-box;
+            height: 100%;
+            width: 70%;
+            background: #ff3eb5;  
+            text-align:justify;
+            /* padding: 0 100px; */
+            clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+            padding-top: 30px;
+                
+        }
+        
+        .content-3-text h1 {
+            margin-top: 50px;
+            width: 300px;
+            text-align: start;
+            padding-left: 70px;
+            
+        }
+        
+        .content-3-text ul {
+            margin-top: 20px;
+            line-height: 40px;
+            font-weight: bold;
+            font-size: 12px;    
+            
+        }
+        
+        .content-3-text li {
+            list-style: none;
+            /* background-color: #472583; */
+            margin-top: 5px;
+            padding-left: 70px;
+           
+        }
+        
+        .content-3-text button {
+            margin-top: 20px;
+            border: solid #472583;
+            border-radius: 3px;
+            width: 70px;
+            background-color: #472583;
+            color: whitesmoke;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            font-weight: bold;
+            margin-left: 70px;
+            font-size: 10px;
+        }
+        
+        #content-3-img {
+            box-sizing: border-box;
+            width: 60%;
+            height: 500px;
+            background-color: yellow;
+            clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+            background: url(imgs/lg-gangs.jpg);
+            /* background-size: 100%; */
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-position: -130px -50px; */
+            position: absolute;
+            right: 0;    
+        }
+        
+        #gof-logo {
+            color: whitesmoke;
+            
+        }
+    
+        #gof-logo img {
+            height: 53px;
+            width: 160px;
+            bottom: 30px;
+            right: 20px;
+            position: absolute;
+        }
+    
+        #gof-logo p {
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
+            color: whitesmoke;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    
+    
+    
     }
-
-    #gof-logo p {
-        position: absolute;
-        bottom: 10px;
-        right: 20px;
-        color: whitesmoke;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-
-
-}
