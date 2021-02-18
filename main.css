@@ -600,7 +600,7 @@ body {
         height: 500px;
         background-color: yellow;
         clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
-        background: url(/lg-gangs.jpg);
+        background: url(./lg-gangs.jpg);
         /* background-size: 100%; */
         background-repeat: no-repeat;
         background-size: cover;
