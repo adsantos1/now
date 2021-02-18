@@ -71,7 +71,7 @@ body {
 }
 
 #content-1-img {
-    background: url(imgs/lg-hollywood.jpg);
+    background: url(/lg-hollywood.jpg);
     background-repeat: no-repeat;
     background-size: 180%;
     background-position: -150px 0px;
@@ -145,7 +145,7 @@ body {
 .movie-item-brassic {
     width: 280px;
     height: 300px;
-    background:url(imgs/box-1.jpg);
+    background:url(/box-1.jpg);
     background-size: cover;
     /* display: block; */
     position: relative;
@@ -167,7 +167,7 @@ body {
 .movie-item-fastfurious {
     width: 280px;
     height: 300px;
-    background:url(imgs/box-2.jpg);
+    background:url(/box-2.jpg);
     margin-top: 20px;
     background-size: cover;
     
@@ -178,7 +178,7 @@ body {
 .movie-item-got {
     width: 280px;
     height: 300px;
-    background:url(imgs/box-3.jpg);
+    background:url(/box-3.jpg);
     margin-top: 20px;
     background-size: cover;
     
@@ -221,7 +221,7 @@ body {
 }
 
 #content-3-img {
-    background: url(imgs/lg-gangs.jpg);
+    background: url(/lg-gangs.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -150px 0px;
@@ -393,7 +393,7 @@ body {
     height: 100%;
     background-color: yellow;
     
-    background: url(imgs/lg-hollywood.jpg);
+    background: url(/lg-hollywood.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -466,7 +466,7 @@ body {
     
     .movie-item-brassic {
         position: relative;
-        background: url(imgs/box-1.jpg);
+        background: url(/box-1.jpg);
         margin: 5px;
         width: 300px;
         background-size: cover;
@@ -476,7 +476,7 @@ body {
     
     .movie-item-fastfurious {
         position: relative;
-        background:url(imgs/box-2.jpg);
+        background:url(/box-2.jpg);
         margin: 5px;
         width: 300px;
         background-size: cover;
@@ -486,7 +486,7 @@ body {
     
     .movie-item-got {
         position: relative;
-        background:url(imgs/box-3.jpg);
+        background:url(/box-3.jpg);
         margin: 5px;
         width: 300px;
         background-size: cover;
@@ -600,7 +600,7 @@ body {
         height: 500px;
         background-color: yellow;
         clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
-        background: url(imgs/lg-gangs.jpg);
+        background: url(/lg-gangs.jpg);
         /* background-size: 100%; */
         background-repeat: no-repeat;
         background-size: cover;
