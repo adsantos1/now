@@ -85,7 +85,19 @@
         border-bottom: 50px transparent rgb(0, 0, 0);
         box-sizing: border-box;
     }
+
+    .content-1-img .overlay-hero-img {
+        height: 50%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 3;
+        opacity: 100%;
+        background: linear-gradient(0deg, black, transparent);
+    }
     
+
     .hollywood-logo {
         position: absolute;
         
@@ -94,6 +106,7 @@
         bottom: 40px;
         left: 20px;
         /* filter: drop-shadow(0 -6px 7px rgb(0, 0, 0)); */
+        z-index: 3;
     }
     
     .hollywood-logo p {
@@ -365,7 +378,7 @@
             color: whitesmoke;
             font-size: 12px;
             width: 100%;
-            max-width: 1440px;
+            max-width: 1903px;
             font-family: Arial, Helvetica, sans-serif;
 
             /* margin-left: auto;
@@ -413,7 +426,7 @@
             text-align: start;
             box-sizing: border-box;
             height: 100%;
-            width: 50%;
+            width: 40%;
             background: #ff3eb5; 
             display: flex;
             margin-left: auto;
@@ -423,9 +436,10 @@
 
         .content-1-text {
             box-sizing: border-box;
-            margin-left: 25px;
+            /* margin-left: 25px; */
             /* margin-right: auto; */
             max-width: 280px;
+            margin: 0 auto;
 
 
         }
@@ -488,7 +502,7 @@
         .content-1-img {
         position: relative;
         box-sizing: border-box;
-        width: 60%;
+        width: 90%;
         height: 100%;
         background-color: yellow;
         
@@ -552,6 +566,7 @@
         .content-2-text h1{
             width: 500px;
             font-size: 25px;
+            margin: 0 auto;
             
         }
         
