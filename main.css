@@ -158,7 +158,10 @@
         /* display: block; */
         position: relative;
         
-        
+    }
+
+    #brassic-logo {
+        width: 100px;
     }
     
    
@@ -173,6 +176,11 @@
         position: relative;
         
     }
+
+    #fastfurious-logo {
+        width: 100px;
+        height: 35px;
+    }
     
     .movie-item-got {
         width: 280px;
@@ -183,7 +191,20 @@
         
         position: relative;
     }
-    
+
+    #got-logo {
+        width: 120px;
+    }
+
+    .svg-logo {
+        position: absolute;
+        bottom: 17px;
+        right: 20px;
+        fill: #ff3eb5;
+        z-index: 5;
+    }
+
+
     .overlay {
         position: absolute;
         top: 0;
@@ -193,7 +214,7 @@
         background: rgba(0, 0, 0, 0.6);
         opacity: 0;
         transition: opacity 0.25s;
-        border-bottom: 15px solid #ff3eb5;
+        border-bottom: 12px solid #ff3eb5;
         box-sizing: border-box;
         
     }
@@ -209,9 +230,10 @@
             bottom: 20px;
             left: 30px;
             z-index: 5;
-            width: 140px;
+            width: 140px;            
     }
 
+   
 
     .text-overlay {
         font-size: 12px;
@@ -284,6 +306,7 @@
     .content-3-text li:hover {
         opacity: 1;
         background-color: #472583;
+        clip-path: polygon(0 0, 94% 0%, 91% 100%, 0% 100%);
     }
 
 
@@ -491,6 +514,11 @@
             
             /* margin: 10px; */
         }
+
+        #brassic-logo {
+            width: 80px;
+        }
+        
         
         .movie-item-fastfurious {
             position: relative;
@@ -501,6 +529,11 @@
             
             /* margin: 10px; */
         }
+
+        #fastfurious-logo {
+            width: 80px;
+            /* height: 25px; */
+        }
         
         .movie-item-got {
             position: relative;
@@ -510,6 +543,18 @@
             background-size: cover;
             
         }
+
+        #got-logo {
+            width: 100px;
+        }
+
+        .svg-logo {
+            position: absolute;
+            bottom: 17px;
+            right: 10px;
+            fill: #ff3eb5;
+            z-index: 5;
+        }
     
         .overlay {
             position: absolute;
@@ -517,10 +562,10 @@
             left: 0;
             width: 100%;
             height: 100%;
-             background: rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0.6);
             opacity: 0;
             transition: opacity 0.25s;
-            border-bottom: 15px solid #ff3eb5;
+            border-bottom: 12px solid #ff3eb5;
             box-sizing: border-box;
             
         }
@@ -534,7 +579,7 @@
         .overlay-logo {
             position: absolute;
             bottom: 20px;
-            left: 30px;
+            left: 20px;
             z-index: 5;
             width: 140px;
     }
