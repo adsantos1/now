@@ -75,7 +75,7 @@
     }
     
     .content-1-img {
-        background: url(./lg-hollywood.jpg);
+        background: url(imgs/lg-hollywood.jpg);
         background-repeat: no-repeat;
         background-size: 180%;
         background-position: -150px 0px;
@@ -175,7 +175,7 @@
     .movie-item-brassic {
         width: 280px;
         height: 300px;
-        background:url(./box-1.jpg);
+        background:url(imgs/box-1.jpg);
         background-size: cover;
         box-sizing: border-box;
         position: relative;
@@ -202,7 +202,7 @@
     .movie-item-fastfurious {
         width: 280px;
         height: 300px;
-        background:url(./box-2.jpg);
+        background:url(imgs/box-2.jpg);
         margin-top: 20px;
         background-size: cover;
         
@@ -229,7 +229,7 @@
     .movie-item-got {
         width: 280px;
         height: 300px;
-        background:url(./box-3.jpg);
+        background:url(imgs/box-3.jpg);
         margin-top: 20px;
         background-size: cover;
         
@@ -311,7 +311,7 @@
     }
     
     .content-3-img {
-        background: url(./lg-gangs.jpg);
+        background: url(imgs/lg-gangs.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: -150px 0px;
@@ -370,12 +370,15 @@
         padding-left: 70px; */
     }
 
-      
-    li:focus {
-            background-color: #472583;
-            outline: none;
-            clip-path: polygon(0 0, 100% 0%, 97% 100%, 0% 100%);
-        }
+    .radio {
+        display: none;
+    }
+    
+    .content-3-text li:hover {
+        opacity: 1;
+        background-color: #472583;
+        clip-path: polygon(0 0, 94% 0%, 91% 100%, 0% 100%);
+    }
 
 
     .content-3-text button {
@@ -411,8 +414,7 @@
             padding: 0;
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
-           
-            
+                        
         }
         
         body {
@@ -422,7 +424,6 @@
             max-width: 1903px;
             font-family: Arial, Helvetica, sans-serif;
 
-           
             margin: 0 auto;
 
             
@@ -495,6 +496,7 @@
             }
 
         }
+
     
         .content-1-text h1 {
             margin-top: 50px;
@@ -546,7 +548,7 @@
         height: 100%;
         background-color: yellow;
         
-        background: url(./lg-hollywood.jpg);
+        background: url(imgs/lg-hollywood.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -663,7 +665,7 @@
         
         .movie-item-fastfurious {
             position: relative;
-            background:url(./box-2.jpg);
+            background:url(imgs/box-2.jpg);
             margin: 5px;
             width: 300px;
             background-size: cover;
@@ -689,7 +691,7 @@
         
         .movie-item-got {
             position: relative;
-            background:url(./box-3.jpg);
+            background:url(imgs/box-3.jpg);
             margin: 5px;
             width: 300px;
             background-size: cover;
@@ -781,24 +783,35 @@
             
         }
         
-        .content-3-text {
+        .content-3-textbox {
             box-sizing: border-box;
             height: 100%;
-            width: 70%;
+            width: 50%;
             background: #ff3eb5;  
-            text-align:justify;
-            /* padding: 0 100px; */
+            /* text-align:justify; */
+            
             clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
             padding-top: 30px;
             align-items: center;
+            /* padding-left: 60px; */
+            /* display: flex; */
+            flex-direction: column;
+            justify-content: flex-start;
                 
+        }
+
+        .content-3-text {
+            justify-content: flex-start;
+            margin-top: 50px;
+
         }
         
         .content-3-text h1 {
-            margin-top: 50px;
+            /* margin-top: 50px; */
             width: 300px;
-            text-align: start;
-            padding-left: 70px;
+            /* text-align: start; */
+            /* padding-left: 70px; */
+            margin-left: 100px;
             
         }
         
@@ -815,7 +828,7 @@
             list-style: none;
             /* background-color: #472583; */
             margin-top: 5px;
-            padding-left: 70px;
+            padding-left: 100px;
            
         }
 
@@ -837,24 +850,45 @@
             padding-top: 7px;
             padding-bottom: 7px;
             font-weight: bold;
-            margin-left: 70px;
+            margin-left: 100px;
             font-size: 10px;
         }
         
-        .content-3-img {
+        /* .content-3-img {
             box-sizing: border-box;
             width: 60%;
             height: 500px;
             background-color: yellow;
             clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
-            background: url(./lg-gangs.jpg);
+            background: url(imgs/lg-gangs.jpg);
+
             /* background-size: 100%; */
-            background-repeat: no-repeat;
-            background-size: cover;
             /* background-position: -130px -50px; */
+
+           /* background-repeat: no-repeat;
+            background-size: cover;
+            
             position: absolute;
             right: 0;    
+        } */
+
+        .content-3-img {
+            /* box-sizing: border-box; */
+            width: 80%;
+            
+            clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+            background: url(imgs/lg-gangs.jpg);
+            
+            
+            background-repeat: no-repeat;
+            
+            object-fit: cover;
+            object-position: -50px 50px;
         }
+            
+
+
+        
 
         .content-3-img .overlay-hero-img {
             height: 40%;
