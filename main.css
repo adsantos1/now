@@ -375,6 +375,10 @@
         background-color: #472583;
         clip-path: polygon(0 0, 94% 0%, 91% 100%, 0% 100%);
     }
+   
+   .radio {
+            display: none;
+        }
 
 
     .content-3-text button {
