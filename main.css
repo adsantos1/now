@@ -75,7 +75,7 @@
     }
     
     .content-1-img {
-        background: url(./lg-hollywood.jpg);
+        background: url(imgs/lg-hollywood.jpg);
         background-repeat: no-repeat;
         background-size: 180%;
         background-position: -150px 0px;
@@ -175,7 +175,7 @@
     .movie-item-brassic {
         width: 280px;
         height: 300px;
-        background:url(./box-1.jpg);
+        background:url(imgs/box-1.jpg);
         background-size: cover;
         box-sizing: border-box;
         position: relative;
@@ -202,7 +202,7 @@
     .movie-item-fastfurious {
         width: 280px;
         height: 300px;
-        background:url(./box-2.jpg);
+        background:url(imgs/box-2.jpg);
         margin-top: 20px;
         background-size: cover;
         
@@ -229,7 +229,7 @@
     .movie-item-got {
         width: 280px;
         height: 300px;
-        background:url(./box-3.jpg);
+        background:url(imgs/box-3.jpg);
         margin-top: 20px;
         background-size: cover;
         
@@ -311,7 +311,7 @@
     }
     
     .content-3-img {
-        background: url(./lg-gangs.jpg);
+        background: url(imgs/lg-gangs.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: -150px 0px;
@@ -369,16 +369,16 @@
         /* margin-top: 5px;
         padding-left: 70px; */
     }
+
+    .radio {
+        display: none;
+    }
     
     .content-3-text li:hover {
         opacity: 1;
         background-color: #472583;
         clip-path: polygon(0 0, 94% 0%, 91% 100%, 0% 100%);
     }
-   
-   .radio {
-            display: none;
-        }
 
 
     .content-3-text button {
@@ -555,7 +555,7 @@
         height: 100%;
         background-color: yellow;
         
-        background: url(./lg-hollywood.jpg);
+        background: url(imgs/lg-hollywood.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -646,7 +646,7 @@
         
         .movie-item-brassic {
             position: relative;
-            background: url(./box-1.jpg);
+            background: url(imgs/box-1.jpg);
             margin: 5px;
             width: 300px;
             background-size: cover;
@@ -672,7 +672,7 @@
         
         .movie-item-fastfurious {
             position: relative;
-            background:url(./box-2.jpg);
+            background:url(imgs/box-2.jpg);
             margin: 5px;
             width: 300px;
             background-size: cover;
@@ -698,7 +698,7 @@
         
         .movie-item-got {
             position: relative;
-            background:url(./box-3.jpg);
+            background:url(imgs/box-3.jpg);
             margin: 5px;
             width: 300px;
             background-size: cover;
@@ -861,7 +861,7 @@
             height: 500px;
             background-color: yellow;
             clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
-            background: url(./lg-gangs.jpg);
+            background: url(imgs/lg-gangs.jpg);
             /* background-size: 100%; */
             background-repeat: no-repeat;
             background-size: cover;
