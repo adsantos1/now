@@ -832,12 +832,9 @@
             background-color: #472583;
             outline: none;
             clip-path: polygon(0 0, 100% 0%, 97% 100%, 0% 100%);
-          }
-
-        .radio {
-            display: none;
         }
-        
+
+                
         
         .content-3-text button {
             margin-top: 20px;
