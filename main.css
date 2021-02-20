@@ -370,15 +370,12 @@
         padding-left: 70px; */
     }
 
-    .radio {
-        display: none;
-    }
-    
-    .content-3-text li:hover {
-        opacity: 1;
-        background-color: #472583;
-        clip-path: polygon(0 0, 94% 0%, 91% 100%, 0% 100%);
-    }
+      
+    li:focus {
+            background-color: #472583;
+            outline: none;
+            clip-path: polygon(0 0, 100% 0%, 97% 100%, 0% 100%);
+        }
 
 
     .content-3-text button {
