@@ -828,19 +828,17 @@
            
         }
 
+        li:focus {
+            background-color: #472583;
+            outline: none;
+            clip-path: polygon(0 0, 100% 0%, 97% 100%, 0% 100%);
+          }
+
         .radio {
             display: none;
         }
         
-        /* .checkbox input:checked + label {
-            color: #16B67F;} */
-
-        .content-3-text li:hover {
-            opacity: 1;
-            background-color: #472583;
-            clip-path: polygon(0 0, 100% 0%, 97% 100%, 0% 100%);
-        }
-
+        
         .content-3-text button {
             margin-top: 20px;
             border: solid #472583;
