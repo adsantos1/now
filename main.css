@@ -272,6 +272,7 @@
         transition: opacity 0.25s;
         border-bottom: 12px solid #ff3eb5;
         box-sizing: border-box;
+        z-index: 4;
         
     }
 
@@ -716,6 +717,7 @@
             transition: opacity 0.25s;
             border-bottom: 12px solid #ff3eb5;
             box-sizing: border-box;
+            z-index: 4;
             
         }
            
