@@ -623,7 +623,7 @@
         
         .movie-item-brassic {
             position: relative;
-            background: url(imgs/box-1.jpg);
+            background: url(./box-1.jpg);
             margin: 5px;
             width: 300px;
             background-size: cover;
